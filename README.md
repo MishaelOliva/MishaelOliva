@@ -21,7 +21,7 @@ I am a software engineer focused on building **high-performance systems**, **pro
 | Category | Technologies & Tools |
 | :--- | :--- |
 | **Languages** | Python, C# (.NET 10 LTS), JavaScript (ES6+), SQL, C, HTML5/CSS3 |
-| **AI & LLM Applications** | Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Dense Vector Embeddings (`bge-small-en-v1.5`), Microsoft Foundry SDK, Google Gemini API, Local LLMs (Ollama / Qwen / Llama), Prompt Grounding & Guardrails |
+| **AI & LLM Applications** | Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Dense Vector Embeddings (`bge-small-en-v1.5`), OpenAI GPT, Anthropic Claude, Google Gemini API, Microsoft Foundry SDK, Local LLMs (Ollama / Qwen / Llama), Prompt Grounding & Guardrails |
 | **Backend & Architecture** | FastAPI, RESTful API Design, WinForms, Pydantic, JSON-RPC 2.0, Zero-Allocation Memory Optimization, COM Interop |
 | **Databases & Storage** | Advanced SQL (Window Functions, CTEs, Indexing), SQLite, MySQL, IndexedDB (Client-Side Storage) |
 | **Infrastructure & Tools** | Git, GitHub Actions (CI/CD), Linux/Bash, Microsoft Entra ID (Azure AD), Postman, Pytest, Unit Testing |
