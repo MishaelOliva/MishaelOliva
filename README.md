@@ -49,7 +49,7 @@ I am a software engineer focused on building **high-performance systems**, **pro
 - Validated across **549 automated smoke checks** with zero compiler warnings under strict `-warnaserror` enforcement.
 
 ### 📋 [NCS ITSM Multi-Source Form Automation](https://github.com/MishaelOliva/NCS-Automation)
-> **Stack:** JavaScript (ES6+), HTML5/CSS3, IndexedDB, Pixel-Perfect Print CSS
+> **Stack:** JavaScript (ES6+), HTML5/CSS3, IndexedDB, Pixel-Perfect Print CSS &bull; 🌐 [Live App](https://mishaeloliva.github.io/NCS-Automation/)
 - Client-side enterprise automation utility built during a 720-hour IT practicum at NCS Group to eliminate manual data entry across 4 disparate ITSM CSV data sources.
 - Cut device handover preparation time from **15+ minutes down to under 3 seconds (95%+ reduction)** while eliminating serial number transcription errors.
 - 100% privacy-first zero-cloud architecture using browser-native IndexedDB; employee PII never leaves the local sandbox.
