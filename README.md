@@ -1,71 +1,47 @@
-# Hi, I'm Mishael Dioneda Oliva 👋
+# Mishael Oliva
 
-**Junior AI & Software Developer** &bull; **Cum Laude Graduate (Computer Engineering Technology)**  
-📍 Metro Manila, Philippines &bull; 📧 [mishael.oliva2002@gmail.com](mailto:mishael.oliva2002@gmail.com) &bull; 💼 [linkedin.com/in/mishael-oliva](https://linkedin.com/in/mishael-oliva) &bull; 🌐 [github.com/MishaelOliva](https://github.com/MishaelOliva)
+Computer engineering technology graduate (Cum Laude, TUP Manila) building AI/LLM retrieval systems, Model Context Protocol (MCP) tool servers, and desktop software in Python and C#.
 
----
-
-## 🚀 About Me
-
-I am a software engineer focused on building **high-performance systems**, **production-grade AI applications**, and **frictionless enterprise automation**. 
-
-- 🤖 **AI & Agentic Systems:** Architecting end-to-end RAG pipelines with dense vector search, and Model Context Protocol (MCP) servers with strict Human-in-the-Loop safety guardrails.
-- ⚙️ **Systems & Desktop Engineering:** Engineering native Windows desktop software in C# (.NET 10 LTS) with custom zero-allocation engines, custom ad-blocking lookup graphs, and deterministic COM lifecycle management.
-- 🏢 **Enterprise Tooling:** Building privacy-first, client-side automation tools that cut operational bottlenecks by 95%+ without sending sensitive enterprise data to unauthorized third-party clouds.
-- 🎓 **Academic Foundation:** Graduated **Cum Laude** with a Bachelor of Engineering Technology in Computer Engineering Technology from Technological University of the Philippines (TUP Manila).
+Taguig City, Metro Manila, Philippines • [mishael.oliva2002@gmail.com](mailto:mishael.oliva2002@gmail.com) • [LinkedIn](https://linkedin.com/in/mishael-oliva) • [GitHub](https://github.com/MishaelOliva)
 
 ---
 
-## 🛠️ Technical Stack
+## Featured Projects
 
-| Category | Technologies & Tools |
-| :--- | :--- |
-| **Languages** | Python, C# (.NET 10 LTS), JavaScript (ES6+), SQL, C, HTML5/CSS3 |
-| **AI & LLM Applications** | Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), Dense Vector Embeddings (`bge-small-en-v1.5`), OpenAI GPT, Anthropic Claude, Google Gemini API, Microsoft Foundry SDK, Local LLMs (Ollama / Qwen / Llama), Prompt Grounding & Guardrails |
-| **Backend & Architecture** | FastAPI, RESTful API Design, WinForms, Pydantic, JSON-RPC 2.0, Zero-Allocation Memory Optimization, COM Interop |
-| **Databases & Storage** | Advanced SQL (Window Functions, CTEs, Indexing), SQLite, MySQL, IndexedDB (Client-Side Storage) |
-| **Infrastructure & Tools** | Git, GitHub Actions (CI/CD), Linux/Bash, Microsoft Entra ID (Azure AD), Postman, Pytest, Unit Testing |
+### [DocuMind AI](https://github.com/MishaelOliva/documind-ai)
+Local document question-answering and retrieval pipeline in Python and FastAPI. Evaluates document chunks using FastEmbed (`bge-small-en-v1.5`), ChromaDB vector indexing, and Google Gemini 2.0 Flash synthesis with source page citations. Includes an audited 15-query retrieval benchmark suite (100% Top-3 hit rate, 8.45 ms mean embedding latency).
 
----
+### [proactive-agent-mcp](https://github.com/MishaelOliva/proactive-agent-mcp)
+A Model Context Protocol (MCP) tool server in Python that exposes task queues, schema validation, semantic retrieval, and human-in-the-loop approval gates over stdio. Hardened with HMAC-signed approval tokens for sensitive actions and per-session multi-model spend tracking. Validated across 18 unit tests covering protocol handshakes and tool dispatch.
 
-## 📌 Featured Projects
+### [NCS-Automation](https://github.com/MishaelOliva/NCS-Automation)
+In-browser IT asset reconciliation and handover form generator with client-side CSV parsing, IndexedDB caching, and printable A4 layouts. Developed during a 720-hour IT support practicum at NCS Group to cross-reference four operational spreadsheets and eliminate manual copy-paste errors across device serial numbers without sending data to external servers. Validated across 76 automated test cases.
 
-### 🧠 [DocuMind — Enterprise Document Intelligence & RAG System](https://github.com/MishaelOliva/documind-ai)
-> **Stack:** Python 3.11+, FastAPI, Vector Embeddings, Cosine Similarity, Multi-LLM (Gemini & Ollama)
-- End-to-end document QA and semantic search engine featuring recursive character chunking (500-char window, 10% overlap) and normalized dense vector embeddings.
-- Evaluated on a 15-query ground-truth benchmark suite: achieved **100% Top-3 retrieval hit rate** with **<7ms mean retrieval latency**.
-- Enforces source-grounded synthesis to eliminate model hallucination and returns verifiable chunk/page citations.
-
-### 🛡️ [Proactive Agent MCP Server](https://github.com/MishaelOliva/proactive-agent-mcp)
-> **Stack:** Python, Model Context Protocol (MCP), JSON-RPC 2.0, Human-in-the-Loop Security
-- Production-grade MCP server equipping autonomous AI agents (Claude Desktop, OpenClaw, Cursor) with proactive event queue polling, compliance auditing, and RAG retrieval.
-- Features **Human-in-the-Loop (HITL)** cryptographic approval gates (HMAC-signed tokens) for destructive actions and real-time multi-model spend guardrails (`track_cost_budget`).
-- Includes comprehensive JSON-RPC protocol compliance test suite with 100% pass rate.
-
-### ⚡ [MishaWeb — High-Performance Windows Browser Engine](https://github.com/MishaelOliva/browser-engine)
-> **Stack:** C# 13, .NET 10 LTS, WinForms, WebView2 Evergreen, Custom Subsystems
-- Native desktop web browser featuring a custom AdBlock engine compiling **150k+ filter rules** across 20 lists with zero-allocation token scanning.
-- Slashed address suggestion allocation from **1.2 MB down to 832 bytes per query** ($\approx 99.9\%$ reduction) using memory-efficient span indexing.
-- Validated across **549 automated smoke checks** with zero compiler warnings under strict `-warnaserror` enforcement.
-
-### 📋 [NCS ITSM Multi-Source Form Automation](https://github.com/MishaelOliva/NCS-Automation)
-> **Stack:** JavaScript (ES6+), HTML5/CSS3, IndexedDB, Pixel-Perfect Print CSS &bull; 🌐 [Live App](https://mishaeloliva.github.io/NCS-Automation/)
-- Client-side enterprise automation utility built during a 720-hour IT practicum at NCS Group to eliminate manual data entry across 4 disparate ITSM CSV data sources.
-- Cut device handover preparation time from **15+ minutes down to under 3 seconds (95%+ reduction)** while eliminating serial number transcription errors.
-- 100% privacy-first zero-cloud architecture using browser-native IndexedDB; employee PII never leaves the local sandbox.
+### [MishaWeb](https://github.com/MishaelOliva/MishaWeb)
+A lightweight Windows desktop browser shell in C# (.NET 10 LTS WinForms) hosting Microsoft Edge WebView2 Evergreen. Incorporates custom ad and tracker filtering compiling 20 filter lists into an in-memory graph, an MRU-backed 3-tier tab memory lifecycle, local address suggestions (832 bytes per query in a 500-entry benchmark), and CRX extension support. Validated across 553 automated checks.
 
 ---
 
-## 📜 Certifications & Credentials
+## Technical Stack
 
-- ☁️ **Microsoft Applied Skills:** [Develop a Generative AI Chat App with Microsoft Foundry SDK](https://learn.microsoft.com/api/credentials/share/en-gb/MishaelOliva-9309/B2AC3BE7E907BDF0?sharingId=6EC3E37B2854B41D) *(Earned Sep 2026)*
-- 📊 **HackerRank:** [SQL (Advanced)](https://www.hackerrank.com/certificates/65ba0c599115) &bull; Window functions, complex joins, subqueries, indexing
-- 💻 **HackerRank:** [Software Engineer](https://www.hackerrank.com/certificates/9f86be258466) &bull; Architecture, REST APIs, data structures
-- 🌐 **HackerRank:** [REST API](https://www.hackerrank.com/certificates/831fad22f75a) &bull; HTTP routing, JSON payload serialization
+- **Languages:** Python, C# (.NET 10 LTS), JavaScript (ES6+), SQL, C, HTML5, CSS3
+- **AI & Agent Development:** Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), FastEmbed (`bge-small-en-v1.5`), ChromaDB, Gemini API, Claude API, OpenAI API, Ollama
+- **Backend & Systems:** FastAPI, WinForms, WebView2 Core, JSON-RPC 2.0, Pydantic, REST APIs
+- **Databases & Storage:** SQLite, MySQL, IndexedDB, relational schema design, query optimization
+- **Developer Tooling & Testing:** Git, GitHub Actions (CI/CD), Pytest, Node test runner, Ruff, PowerShell
 
 ---
 
-## 📬 Contact & Connect
+## Certifications & Credentials
+
+- **Microsoft Applied Skills:** [Develop a Generative AI Chat App with Microsoft Foundry SDK](https://learn.microsoft.com/api/credentials/share/en-gb/MishaelOliva-9309/B2AC3BE7E907BDF0?sharingId=6EC3E37B2854B41D) (Sep 2026)
+- **HackerRank:** [SQL (Advanced)](https://www.hackerrank.com/certificates/65ba0c599115) • Complex joins, window functions, query optimization
+- **HackerRank:** [Software Engineer](https://www.hackerrank.com/certificates/9f86be258466) • System architecture, REST APIs, data structures
+- **HackerRank:** [REST API](https://www.hackerrank.com/certificates/831fad22f75a) • Routing, HTTP methods, JSON serialization
+
+---
+
+## Contact
 
 - **Email:** [mishael.oliva2002@gmail.com](mailto:mishael.oliva2002@gmail.com)
 - **LinkedIn:** [linkedin.com/in/mishael-oliva](https://linkedin.com/in/mishael-oliva)
