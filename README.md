@@ -18,7 +18,7 @@ A Model Context Protocol (MCP) tool server in Python that exposes task queues, s
 In-browser IT asset reconciliation and handover form generator with client-side CSV parsing, IndexedDB caching, and printable A4 layouts. Developed during a 720-hour IT support practicum at NCS Group to cross-reference four operational spreadsheets and eliminate manual copy-paste errors across device serial numbers without sending data to external servers. Validated across 76 automated test cases.
 
 ### [MishaWeb](https://github.com/MishaelOliva/MishaWeb)
-A lightweight Windows desktop browser shell in C# (.NET 10 LTS WinForms) hosting Microsoft Edge WebView2 Evergreen. Incorporates custom ad and tracker filtering compiling 20 filter lists into an in-memory graph, an MRU-backed 3-tier tab memory lifecycle, local address suggestions (832 bytes per query in a 500-entry benchmark), and CRX extension support. Validated across 568 automated checks.
+A lightweight Windows desktop browser shell in C# (.NET 10 LTS WinForms) hosting Microsoft Edge WebView2 Evergreen. Incorporates custom ad and tracker filtering compiling 20 filter lists into an in-memory graph, an MRU-backed 3-tier tab memory lifecycle, local address suggestions (832 bytes per query in a 500-entry benchmark), and CRX extension support. Validated across 572 automated checks.
 
 ---
 
