@@ -54,6 +54,7 @@ High-performance concept website showcasing modern frontend architecture and gra
 ## Technical Stack
 
 - **Languages:** Python 3.11+, C# (.NET 10 LTS), TypeScript, JavaScript (ES6+), SQL, HTML5, CSS3
+- **Spoken Languages:** Filipino (Native), English (Advanced), Japanese (Conversational N5-N4)
 - **AI & Retrieval:** Retrieval-Augmented Generation (RAG), Model Context Protocol (MCP), FastEmbed (`bge-small-en-v1.5`), cosine-similarity retrieval, grounded synthesis with citations, human-in-the-loop approval gates, Gemini API, Ollama
 - **Backend & Desktop:** FastAPI, Pydantic, WinForms, Microsoft Edge WebView2 Evergreen, JSON-RPC 2.0, REST APIs
 - **Frontend & Web:** React 19, TypeScript, Vite, WebGL, Tailwind CSS, IndexedDB
