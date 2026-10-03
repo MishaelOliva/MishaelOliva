@@ -17,7 +17,7 @@ Document question-answering and semantic search built **from scratch without Lan
 - Recursive character chunking (500-char window, 50-char overlap, word-boundary aligned).
 - Local dense embeddings via FastEmbed (`BAAI/bge-small-en-v1.5`, 384-d) with in-memory cosine-similarity index and atomic JSON persistence.
 - Similarity threshold filtering that refuses rather than cites weakly.
-- Pluggable LLM synthesis (Gemini 2.5 Flash / Ollama / local offline extraction) with strict citation verification.
+- Pluggable LLM synthesis (Gemini / Ollama / local offline extraction) with strict citation verification.
 - **33 passing tests** (`pytest`). Evaluated on a 15-query test set with 100% Top-1 retrieval accuracy and ~7–10 ms local vector retrieval latency. Fully functional offline.
 
 ### [proactive-agent-mcp](https://github.com/MishaelOliva/proactive-agent-mcp) — Python / MCP
